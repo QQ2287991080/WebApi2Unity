@@ -20,7 +20,7 @@ namespace UnityProject.Tests.Controllers
             StudentService studentService = new StudentService();
             TeacherService teacherService = new TeacherService();
             // 排列
-            TestController controller = new TestController(studentService, teacherService);
+            TestController controller = new TestController(studentService);
 
             // 操作
             string name = controller.GetName();
